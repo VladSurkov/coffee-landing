@@ -1,0 +1,116 @@
+.our-address {
+    margin-top: 131px;
+    display: flex;
+}
+.our-address__content{
+    display: flex;
+}
+
+
+.our-address__map {
+    width: 646px;
+    height: 351px;
+    border-radius: 5px;
+    background-image: url("../img/Our Address/map.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+}
+.our-address__map p {
+    position: absolute;
+    right: -42px;
+    top: 0;
+
+    margin: 0;
+    font-family: 'Cedarville Cursive';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 53px;
+    color: #000000;
+    opacity: 0.75;
+    transform: rotate(-90deg);
+}
+.our-address__line {
+    width: 102px;
+    height: 2px;
+    margin: 36px 32px 0 42px;
+    background-color: #444A4A;
+}
+.our-address__info {
+    width: 220px;
+    margin-top: 22px;
+}
+.our-address__info h3 {
+    margin-bottom: 21px;
+}
+
+.link {
+    display: block;
+    margin-bottom: 16px;
+}
+.main-text:hover {
+    color:#313434;
+}
+.our-address__info button {
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444A4A;
+
+    width: 189px;
+    height: 53px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
+    border-radius: 5px;
+    border: 0;
+    display: none;
+}
+
+@media (max-width: 1070px) {
+    .our-address__line {
+        display: none;
+    }
+    .our-address__content {
+        justify-content: space-between;
+    }
+}
+@media (max-width: 910px) {
+    .our-address__map p {
+        display: none;
+    }
+    .our-address__map {
+        width: 546px;
+        height: 251px;
+    }
+}
+@media (max-width: 800px) {
+    .our-address {
+        margin-top: 70px;
+    }
+    .our-address__content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-address__map {
+        width: 100%;
+        height: 351px;
+    }
+    .our-address__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-address__info a {
+        text-align: center;
+    }
+    .our-address__info button {
+        display: block;
+    }
+}

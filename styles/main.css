@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700&display=swap');
+
+@import "./header.css";
+@import "./hero.css";
+@import "./articleText.css";
+@import "./choose-coffee.css";
+@import "./our-address.css";
+@import "./footer.css";
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.big-container {
+    width: 1170px;
+    /* width: clamp(25rem, 11.25rem + 68.75vw, 73.125rem); */
+    padding: 0 15px;
+    margin: 0 auto; 
+}
+.small-container {
+    width: 1098px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 38px;
+    color: #000000;
+}
+.main-text {
+    /* margin: 0; */
+    font-family: 'Alegreya Sans';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+    letter-spacing: 0.001em;
+    color: #444A4A;
+}

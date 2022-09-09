@@ -1,0 +1,15 @@
+.footer {
+    margin-top: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    font-family: 'Alegreya Sans';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+    letter-spacing: 0.001em;
+    color: #444A4A;
+    margin: 0;
+}
